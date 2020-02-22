@@ -1,8 +1,9 @@
 
 body {
     font-family: Montserrat;
-    background: url(img/background.png);
+    /* background: url(img/background.png); */
     color: white;
+    background: linear-gradient(30deg, #212339, #5861BE);
 }
 
 /* NAVVAR */
@@ -51,6 +52,10 @@ body {
 /* AKHIR IMAGE BACKROUND OPACITY */
 
 /* CONTAINER CONTENT */
+.container.content {
+    height: 487px;
+}
+
 .container.content h4{
     font-size: 34px;
 }
