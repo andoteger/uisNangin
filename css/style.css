@@ -1,0 +1,66 @@
+
+body {
+    font-family: Montserrat;
+    background: url(/img/Rectangle\ 6@2x.png);
+    color: white;
+}
+
+/* NAVVAR */
+.navbar {
+    background: none !important;
+    padding: 50px;
+}
+
+.navbar .navbar-brand{
+    font-size: 25px;
+    font-weight: 800;
+    font-style: italic;
+    text-shadow: 0 3px 6px white;
+}
+
+.navbar .collapse .navbar-nav a {
+    color: #888ABC;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0 40px;
+}
+
+.navbar .collapse .navbar-nav a:hover ,.navbar .collapse a:hover {
+    color: white;
+}
+
+.navbar .collapse a {
+    z-index: 20;
+    color: #888ABC;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0 40px;
+}
+
+/* AKHIR NAVBAR */
+
+/* IMAGE BACKROUND OPACITY */
+.section .imgShadow img{
+    position: absolute;
+    top: 0;
+    margin-top: -20px;
+    padding: 0 !important;
+    width: 30rem;
+    opacity: 6%;
+}
+/* AKHIR IMAGE BACKROUND OPACITY */
+
+/* CONTAINER CONTENT */
+.container.content h4{
+    font-size: 34px;
+}
+
+.container.content img {
+    opacity: 90%;
+}
+.container.content button {
+    width: 200px;
+    border-radius: 50px;
+    font-size: 25px;
+}
+/* AKHIR CONTAINER CONTENT */
