@@ -19,7 +19,7 @@
 <body>
 
     <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light ">
         <div class="container">
             <a class="navbar-brand">Uis Nangin</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -27,7 +27,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav mx-auto">
+                <ul class="navbar-nav">
                     <li class="nav-item">
                         <a class="nav-link" href="#">Men</a>
                     </li>
@@ -48,25 +48,80 @@
     </nav>
     <!-- AKHIR NAVBAR -->
 
-    <!-- IMAGE BACKROUND OPACITY -->
-    <div class="section">
-        <div class="row imgShadow img-fluid justify-content-end">
-            <img src="img/uisgara.png">
-        </div>
-    </div>
-    <!-- IMAGE BACKROUND OPACITY -->
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <!-- IMAGE BACKROUND OPACITY -->
+                <div class="section">
+                    <div class="row imgShadow img-fluid justify-content-end">
+                        <img src="img/uisgara.png">
+                    </div>
+                </div>
+                <!-- IMAGE BACKROUND OPACITY -->
 
-    <div class="container content">
-        <div class="row">
-            <div class="col-12 col-sm-6 col-lg-4 pb-4 ">
-                <img src="img/uisgara.png">
+                <!-- KETERANGAN BARANG -->
+                <div class="container content">
+                    <div class="row">
+                        <div class="col-12 col-sm-6 col-lg-4 pb-4 my-auto">
+                            <img src="img/uisgara.png">
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-6 align-self-center">
+                            <h4>Uis nipes Sutera benang 100 <br>kain adat wanita karo</h4>
+                            <button class="btn btn-danger">Buy now!</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- AKHIR KETERANGAN BARANG -->
             </div>
-            <div class="col-12 col-sm-6 col-lg-6 align-self-center">
-                <h4>Uis nipes Sutera benang 100 <br>kain adat wanita karo</h4>
-                <button class="btn btn-danger">Buy now!</button>
+
+            <div class="carousel-item">
+                <!-- IMAGE BACKROUND OPACITY -->
+                <div class="section">
+                    <div class="row imgShadow img-fluid justify-content-end">
+                        <img src="img/tudung.png">
+                    </div>
+                </div>
+                <!-- IMAGE BACKROUND OPACITY -->
+
+                <!-- KETERANGAN BARANG -->
+                <div class="container content">
+                    <div class="row">
+                        <div class="col-12 col-sm-6 col-lg-4 pb-4 my-auto">
+                            <img src="img/tudung.png" style="width: 269px;">
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-6 align-self-center">
+                            <h4>Tudun karo/Mahkota karo <br> bahan kain tenun asli khas suku karo</h4>
+                            <button class="btn btn-danger">Buy now!</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- AKHIR KETERANGAN BARANG -->
+            </div>
+
+
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <!-- KONTAK -->
+    <section class="contact">
+        <div class="container">
+            <div class="row justify-content-center">
+                <img src="img/icon/fb.png" alt="">
+                <img src="img/icon/ig.png" alt="">
+                <img src="img/icon/wa.png" alt="">
             </div>
         </div>
-    </div>
+    </section>
+    <!-- AKHIR KONTAK -->
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
